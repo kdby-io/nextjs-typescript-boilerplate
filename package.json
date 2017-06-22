@@ -9,25 +9,6 @@
     "start": "next start .dist",
     "tslint": "tslint -c tslint.json -p tsconfig.json"
   },
-  "jest": {
-    "globals": {
-      "__TS_CONFIG__": "tsconfig.json"
-    },
-    "moduleFileExtensions": [
-      "tsx",
-      "ts",
-      "js"
-    ],
-    "transform": {
-      "^.+\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
-    },
-    "testMatch": [
-      "**/test/**/*.test.(ts|tsx)"
-    ],
-    "testEnvironment": "node",
-    "collectCoverage": true,
-    "coverageDirectory": ".coverage"
-  },
   "dependencies": {
     "@types/node": "^7.0.31",
     "@types/react": "^15.0.29",
