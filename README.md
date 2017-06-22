@@ -2,6 +2,8 @@
 
 A boilerplate using [Next.js](https://github.com/zeit/next.js/) and [Typescript](https://www.typescriptlang.org/).
 
+There is also ['with-typescript' example](https://github.com/zeit/next.js/tree/v3-beta/examples/with-typescript) in Next.js repository. But that's suck, because the example make compiled files and source files be in same place.
+
 ## Quick Start
 
 ```sh
