@@ -2,11 +2,11 @@
   "name": "nextjs-typescript-boilerplate",
   "version": "1.0.0",
   "scripts": {
-    "prebuild": "tsc && cp -R static .dist/",
-    "build": "next build .dist",
-    "predev": "tsc && cp -R static .dist/",
-    "dev": "concurrently \"tsc --watch\" \"next .dist\"",
-    "start": "next start .dist",
+    "prebuild": "tsc && cp -R static dist/",
+    "build": "next build dist",
+    "predev": "tsc && cp -R static dist/",
+    "dev": "concurrently \"tsc --watch\" \"next dist\"",
+    "start": "next start dist",
     "tslint": "tslint -c tslint.json -p tsconfig.json"
   },
   "dependencies": {
