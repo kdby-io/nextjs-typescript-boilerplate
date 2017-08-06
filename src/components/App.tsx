@@ -1,15 +1,15 @@
-import * as React from 'react';
-import Head from 'next/head';
+import * as React from 'react'
+import Head from 'next/head'
 
 export namespace App {
   export interface Props {
-    title: string;
+    title: string
   }
   export interface State { }
 }
 
 export class App extends React.Component<App.Props, App.State> {
-  render() {
+  render () {
     return (
       <div>
         <Head>
@@ -20,6 +20,6 @@ export class App extends React.Component<App.Props, App.State> {
           {this.props.children}
         </div>
       </div>
-    );
+    )
   }
 }

@@ -1,22 +1,36 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es6",
-        "jsx": "react",
-        "strict": true,
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "rootDir": "src",
-        "outDir": "dist",
-        "baseUrl": ".",
-        "paths": {
-            "*": [
-                "node_modules/*",
-                "types/*"
-            ]
-        }
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "strict": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "types/*"
+      ]
     },
-    "include": [
-        "src/**/*"
-    ]
+
+    /* Additional Checks */
+    "noUnusedLocals": true,             /* Report errors on unused locals. */
+    "noUnusedParameters": true,         /* Report errors on unused parameters. */
+    "noImplicitReturns": true,          /* Report error when not all code paths in function return a value. */
+    "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
+    "noImplicitAny": true,              /* Raise error on expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,           /* Enable strict null checks. */
+    "noImplicitThis": true             /* Raise error on 'this' expressions with an implied 'any' type. */
+    // "alwaysStrict": true             /* Parse in strict mode and emit "use strict" for each source file. */
+
+    /* Experimental Options */
+    // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+    // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
