@@ -12,7 +12,7 @@ npm run dev
 
 ## Install & Running
 
-1. `git clone https://github.com/pueue/nextjs-typescript-boilerplate.git`
+1. `git clone https://github.com/vichyssoise/nextjs-typescript-boilerplate.git`
 2. `cd nextjs-typescript-boilerplate`
 3. `npm install`
 4. `npm run dev`
